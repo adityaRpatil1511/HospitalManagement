@@ -3,6 +3,7 @@ import bg from "../../Hospital/src/assets/HospitalImages/bg.png";
 import bg1 from "../../Hospital/src/assets/HospitalImages/bg3.png"
 import Navbar from "./CommonFolder/Navbar";
 import ServicesSection from "./HospitalManagement/ServicesSection";
+import Footer from "./CommonFolder/Footer";
 
 const bgImages = [bg, bg1];
 
@@ -51,6 +52,7 @@ function App() {
 
       {/* Services Section (outside background image) */}
       <ServicesSection />
+      <Footer/>
     </>
   );
 }
